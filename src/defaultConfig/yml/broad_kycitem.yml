@@ -1,0 +1,11 @@
+## 打指令會用到的插件, 這邊請輸入KyCraft中想要的物品ID
+## NORMAL_SWORD為KyCraft中知名外掛武器 「普通的劍」 的代碼
+NORMAL_SWORD:
+    BroadType:
+    - Message
+    - ActionBar
+    - BossBar
+    - Title
+    FormatOverride: 
+        ## 只有2, 表示說覆蓋所有廣播類型的2號格式, 但只有Title廣播類型有2 號格式(SubTitle)
+        2: "§c作弊神劍 - 連續普通斬"

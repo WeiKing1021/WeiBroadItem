@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/我的文件/Desktop/WeiBroadApi.jar"/>
+	<classpathentry kind="lib" path="E:/我的文件/Desktop/Game/【3D生存】Minecraft/SERVER/(1.9.4)懷舊伺服器/plugins/KyCraft[核心].jar"/>
+	<classpathentry kind="lib" path="E:/我的文件/Desktop/Game/【3D生存】Minecraft/伺服器啟動核心/spigot-1.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Minecraft/蔚汀伺服器(實戰用)(Bungeecord)/Server/蔚汀伺服器(實戰用)(Spigot)A/plugins/SkillAPI[職業技能].jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

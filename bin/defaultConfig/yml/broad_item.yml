@@ -1,0 +1,52 @@
+## 物品代碼, 打指令時會用到
+我是喇叭:
+    ## 廣播的類型, 可以看broad_format.yml參考
+    BroadType:
+    - Message
+    - ActionBar
+    - BossBar
+    - Title
+    ## ApiPush 需要沒人氣的插件 WeiBroadApi 支援, 可將廣播訊息推送至網站中
+    ##- ApiPush
+    ## 物品的ID
+    ID: 154
+    ## 物品的名稱
+    Display: §6魏丁的法國號    
+    ## 物品的說明文字
+    Lores:
+    - '§7耐久 V'
+    - '§7你好, 我是喇叭'
+    - '§c§m不是嗩吶'
+    ## 物品的附魔
+    Enchantments:
+    - DURABILITY:1
+改寫喇叭:
+    BroadType:
+    - Message
+    - ActionBar
+    - BossBar
+    - Title
+    ID: 351
+    ## 物品的子ID
+    Data: 15
+    Display: §6改造號角零式
+    ## 廣播格式改寫
+    FormatOverride: 
+        1: "{MESSAGE}"
+        2: "§e我是魏丁"
+    Lores:
+    - '§7不可以!!!'
+    Enchantments:
+    - DURABILITY:1
+等級暴露物:
+    BroadType:
+    - Message
+    ID: 380
+    Display: §f等級暴露物§f
+    ## {PLAYER_LEVEL}, {PLAYER_NAME}和{MESSAGE}都是參數, 參數可以看broad_format.yml參考
+    FormatOverride: 
+        1: "§6[等級 §e{PLAYER_LEVEL} §6的 §f{PLAYER_NAME}§6] §f{MESSAGE}"
+    Lores:
+    - '§f我等級高我囂張'
+    Enchantments:
+    - DURABILITY:10

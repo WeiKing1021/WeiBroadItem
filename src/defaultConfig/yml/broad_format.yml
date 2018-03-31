@@ -1,0 +1,32 @@
+###########################可使用參數###########################
+## ===== 內建 =====                                           ##
+## {MESSAGE}: 玩家自行輸入的訊息                              ##
+## {PLAYER_NAME}: 玩家的名稱                                  ##
+## {PLAYER_DISPLAY}: 玩家的自定義名稱((會顯示玩家的Group      ##
+## {PLAYER_LEVEL}: 玩家的等級                                 ##
+## {PLAYER_WORLD}: 玩家的所在世界                             ##
+##                                                            ##
+## === SkillAPI ===                                           ##
+## {SKILLAPI_LEVEL}: 玩家的職業等級                           ##
+## {SKILLAPI_CLASS}: 玩家的職業名稱                           ##
+## {SKILLAPI_CLASS_PREFIX}: 玩家的職業前墜                    ##
+################################################################
+
+## 一般廣播訊息的格式
+Message:
+    1: "§6{PLAYER_NAME} §d大聲地說: §f{MESSAGE}"
+    
+## 經驗條上面的廣播格式
+ActionBar:
+    1: "§d等級 §e{PLAYER_LEVEL} §d的 §6{PLAYER_NAME} §d小聲地說: §f{MESSAGE}"
+    
+## 畫面中間大字的廣播格式
+Title:
+    ## 上方較大的
+    1: "§6{PLAYER_NAME} §d哭著說"
+    ## 下方較小的
+    2: "§f{MESSAGE}"
+    
+## Boss血條的廣播格式
+BossBar:
+    1: "§d在 §a{PLAYER_WORLD} §d世界中的 §6{PLAYER_NAME} §d尖叫道: §f{MESSAGE}"

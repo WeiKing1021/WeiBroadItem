@@ -1,0 +1,20 @@
+## 設定檔的載入方式
+## 可設定選項[yml, sql]
+LoadType: yml
+## 語言檔
+LangType: zh-tw
+## 是否顯示作者小提醒((拜託打開
+LoadInfo: true
+## 如果載入方式選為sql時所需要的資料
+## 還沒完成, 所以請用yml載入
+SqlSetting:
+    ## 資料庫的位置((可以用ipv4噢
+    Host: localhost
+    ## 資料庫的端口
+    Port: 3306
+    ## 資料庫中的哪個資料表((請確定登入的使用者有權限存取
+    DataBase: test
+    ## 登入資料庫的使用者帳號
+    User: root
+    ## 登入資料庫的使用者密碼
+    Password:

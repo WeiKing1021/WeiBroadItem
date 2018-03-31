@@ -1,0 +1,9 @@
+name: WeiBroadItem
+main: me.wei.broaditem.PluginCore
+version: 1.0.0
+commands:
+    weibroaditem:
+        aliases: [wbi, bi]
+        description: WeiBroadItem!
+        usage: §6未知指令, 請使用 §f/weiboraditem help §6查看所有指令.
+        permission-message: §c你沒有足夠的權限
